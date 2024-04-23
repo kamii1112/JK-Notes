@@ -87,33 +87,34 @@ const Html = () =>{
                         <div className="eg">
 
                             &lt;p&gt;&lt;a href="#C4"&gt;Jump to Chapter 4&lt;/a&gt;&lt;/p&gt;
+                            <br />
                             &lt;p&gt;&lt;a href="#C6"&gt;Jump to Chapter &lt;/a&gt;&lt;/p&gt;
 
                             <br />
 
-                            &lt;  li&gt;Chapter 1&lt;/  li&gt;
+                            &lt;  li&gt;Chapter 1&lt;/  li&gt; <br />
                             &lt;p&gt;This chapter explains ba bla bla&lt;/p&gt;
 
                             <br />
 
-                            &lt;  li&gt;Chapter 2&lt;/  li&gt;
+                            &lt;  li&gt;Chapter 2&lt;/  li&gt; <br />
                             &lt;p&gt;This chapter explains ba bla bla&lt;/p&gt;
 
                             <br />
 
-                            &lt;  li&gt;Chapter 3&lt;/  li&gt;
+                            &lt;  li&gt;Chapter 3&lt;/  li&gt; <br />
                             &lt;p&gt;This chapter explains ba bla bla&lt;/p&gt;
                             <br />
 
-                            &lt;  li id="C4"&gt;Chapter 4&lt;/  li&gt;
+                            &lt;  li id="C4"&gt;Chapter 4&lt;/  li&gt; <br />
                             &lt;p&gt;This chapter explains ba bla bla&lt;/p&gt;
                             <br />
 
-                            &lt;  li&gt;Chapter 5&lt;/  li&gt;
+                            &lt;  li&gt;Chapter 5&lt;/  li&gt; <br />
                             &lt;p&gt;This chapter explains ba bla bla&lt;/p&gt;
                             <br />
 
-                            &lt;  li id="C6"&gt;Chapter 6&lt;/  li&gt;
+                            &lt;  li id="C6"&gt;Chapter 6&lt;/  li&gt; <br />
                             &lt;p&gt;This chapter explains ba bla bla&lt;/p&gt;
 
                         </div>
@@ -128,7 +129,7 @@ const Html = () =>{
                     </ul>
                   </li>
                 <li>  HTML Image Map:   <a href="https://www.w3schools.com/html/html_images_imagemap.asp" className=" underline underline-offset-2">
-                    https://www.w3schools.com/html/html_images_imagemap.asp
+                    w3schools.imagemap
                 </a>  </li>
                 <li>  HTML Background images:   using style attribute
                     <ul className="flex flex-col gap-1">
@@ -144,9 +145,9 @@ const Html = () =>{
                         <code>
                             &lt;picture&gt;
                             <br />
-                            &lt;source media="(min-width: 650px)" srcset="img_food.jpg"&gt;
+                            &lt;source media="(min-width: 650px)" <br /> srcset="img_food.jpg"&gt;
                             <br />
-                            &lt;source media="(min-width: 465px)" srcset="img_car.jpg"&gt;
+                            &lt;source media="(min-width: 465px)" <br />srcset="img_car.jpg"&gt;
                             <br />
                             &lt;img src="img_girl.jpg"&gt;
                             <br />
@@ -157,9 +158,9 @@ const Html = () =>{
                 <li>  HTML favicon:   it is a <strong>small image displayed next to page title</strong> in the browser tab
                     <pre>
                         <code>
-                            &lt;head&gt;
-                            &lt;title&gt;My Page Title&lt;/title&gt;
-                            &lt;link rel="icon" type="image/x-icon" href="/images/favicon.ico"&gt;
+                            &lt;head&gt; <br />
+                            &lt;title&gt;My Page Title&lt;/title&gt; <br />
+                            &lt;link rel="icon" type="image/x-icon" <br /> href="/images/favicon.ico"&gt; <br />
                             &lt;/head&gt;
                         </code>
                     </pre>
@@ -169,13 +170,13 @@ const Html = () =>{
                     <pre>
                         <div className="eg">
                             &lt;table&gt; <br />
-                            &lt;tr&gt; 
-                            &lt;th&gt;Company&lt;/th&gt;
-                            &lt;th&gt;Contact&lt;/th&gt;
+                            &lt;tr&gt; <br />
+                            &lt;th&gt;Company&lt;/th&gt;<br />
+                            &lt;th&gt;Contact&lt;/th&gt; <br />
                             &lt;/tr&gt; <br />
-                            &lt;tr&gt;
-                            &lt;td&gt;Alfreds Futterkiste&lt;/td&gt;
-                            &lt;td&gt;Maria Anders&lt;/td&gt;
+                            &lt;tr&gt; <br />
+                            &lt;td&gt;Alfreds Futterkiste&lt;/td&gt; <br />
+                            &lt;td&gt;Maria Anders&lt;/td&gt; <br />
                             &lt;/tr&gt; <br />
                             &lt;/table&gt;
                         </div>
@@ -194,11 +195,11 @@ const Html = () =>{
                         <li> HTML description lists: it is a list of terms, with a description of each term
                             <pre>
                                 <code>
-                                    &lt;dl&gt;
-                                    &lt;dt&gt;Coffee&lt;/dt&gt;
-                                    &lt;dd&gt;- black hot drink&lt;/dd&gt;
-                                    &lt;dt&gt;Milk&lt;/dt&gt;
-                                    &lt;dd&gt;- white cold drink&lt;/dd&gt;
+                                    &lt;dl&gt; <br />
+                                    &lt;dt&gt;Coffee&lt;/dt&gt; <br />
+                                    &lt;dd&gt;- black hot drink&lt;/dd&gt; <br />
+                                    &lt;dt&gt;Milk&lt;/dt&gt; <br />
+                                    &lt;dd&gt;- white cold drink&lt;/dd&gt; <br />
                                     &lt;/dl&gt;
                                 </code>
                             </pre>
@@ -251,7 +252,7 @@ const Html = () =>{
                         <li> &lt;iframe&gt; tag specifies an inline frame
                             <pre>
                                 <code className="eg">
-                                    &lt;iframe src="demo_iframe.htm" height="200" width="300" title="Iframe Example"&gt;&lt;/iframe&gt;
+                                    &lt;iframe src="demo_iframe.htm" <br />height="200" width="300" <br />title="Iframe Example"&gt;&lt;/iframe&gt;
                                 </code>
                             </pre>
                           </li>
