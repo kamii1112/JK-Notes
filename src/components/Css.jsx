@@ -44,7 +44,7 @@ const Css = () => {
                     </ul>
                 </li>
                 <li>  <span className="spcl">CSS backgrounds:</span>
-                    <pre><code>background : color image repeat attachment position;</code></pre>
+                    <pre><code>background : color image repeat <br /> attachment position;</code></pre>
                     <ul className="leftt ">
                         <li>  <span className="spcl">background color:</span>   <code>background-color: lightblue; opacity: 0.3;</code>  </li>
                         <li> <span className="spcl"> background image: </span>  <code>background-image: url("paper.gif");</code>
@@ -130,7 +130,7 @@ const Css = () => {
                     outline-style: double; <br />
                     outline-width: medium; <br />
                     outline-color: blue; <br />
-                    outline-offset: 15px; /* adds the space of 15px between an outline and border of an element, the space between an element and its outline is transparent */
+                    outline-offset: 15px; <br />/* adds the space of 15px <br /> between an outline and <br />border of an element, <br />the space between an element and <br /> its outline is transparent */
                 </div></pre>
 
 
@@ -291,7 +291,7 @@ const Css = () => {
                         <li> <span className="spcl"> Bootstrap Icons:</span>
                             <ul className="left">
                                 <li> Add the following link in the <code>&lt;head&gt;</code> section of your HTML page:
-                                    <code>&lt;link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"&gt;</code>
+                                    <code>&lt;link rel="stylesheet" <br />href="https://maxcdn.bootstrapcdn.com <br /> /bootstrap/3.3.7/css/bootstrap.min.css"&gt;</code>
                                 </li>
                             </ul>
                         </li>
